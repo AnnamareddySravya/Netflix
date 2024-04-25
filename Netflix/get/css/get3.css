@@ -1,0 +1,76 @@
+body{
+    background-color: black;
+}
+/* .logo{
+    width: 50%; 
+     height: 30px; 
+     margin-top: -20px;
+}  */
+h1{
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+h1:hover{
+    cursor: pointer;
+    color: rgb(239, 9, 9);
+}
+img {
+    height: 300px;
+   
+}
+
+
+.productCard {
+    width: 100%;
+    text-align: center;
+    padding-bottom: 10px;
+    display: inline;
+    flex: 0 0 14.555555%;
+    margin-right: 10px;
+    margin-top: 47px;
+    border: 1px solid rgb(217, 214, 214);
+   
+    
+}
+.productCard:hover{
+   /* translate: 5px; */
+   box-shadow: -1px 2px 2px 3px red;
+    transform: translateY(-10px);
+
+}
+
+.brands {
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.prodName {
+    font-size: 25px;
+    margin: 10px 0 10px 0;
+    color: white;
+    
+}
+.prodName:hover{
+    cursor: pointer;
+    color: rgb(227, 20, 20);
+}
+
+.price {
+    color: green;
+    margin: 10px 0 10px 0;
+
+}
+.price:hover{
+    cursor: pointer;
+    color: red;
+}
+
+.parent-list {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0;
+    margin: 20px;
+    /* transform: translateX(10px); */
+}

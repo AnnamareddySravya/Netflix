@@ -1,0 +1,50 @@
+.logo{
+    display: flex;
+    justify-content: space-between;
+}
+.logo h2{
+    color: red;
+    font-size: 35px;
+    cursor: pointer;
+    /* padding-top: 20px */
+}
+.one{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.two{
+   margin-left: 200px;
+}
+.first{
+    font-size: 40px;
+    font-weight: bold;
+    margin-left: 100px;
+}
+.second{
+    font-size: 40px;
+    font-weight: bold;
+    margin-left: 70px;
+}
+.third{
+    font-size: 30px;
+}
+.pass{
+    width: 70%;
+    height: 40px;
+    border: 2px solid black;
+    border-radius: 15px;
+    margin-left: 90px;
+}
+.btn{
+    width: 70%;
+    height: 60px;
+    font-size: 30px;
+    color: white;
+    background-color: red;
+    /* border: 2px solid black; */
+    border-radius: 10px;
+    margin-left: 90px; 
+    cursor: pointer;
+}
